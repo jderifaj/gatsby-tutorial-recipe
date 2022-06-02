@@ -1,0 +1,33 @@
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#333;
+    font-size: 22px;
+}
+a{
+    color:rgb(33, 126, 213);
+    transition:all .3s;
+
+}
+a:hover{
+    color:rgb(158, 11, 68)
+}
+nav {
+    border-bottom: 1px solid #000;
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+ li{
+    list-style-type: none;
+    text-transform: uppercase;
+    a{
+        text-decoration: none;
+        font-size: 36px;
+    }
+ }
+
+}
+h1{
+    text-align: center;
+}
